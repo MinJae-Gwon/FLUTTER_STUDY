@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbf19d47-cf17-4876-b640-618feed3050e" name="Default Changelist" comment="" />
+    <list default="true" id="fbf19d47-cf17-4876-b640-618feed3050e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/atom_quiz/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/atom_quiz/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atom_quiz/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/atom_quiz/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/widgets/transaction_list_prac.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/widgets/transaction_list_prac.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

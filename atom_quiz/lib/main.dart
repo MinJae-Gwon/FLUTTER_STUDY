@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Atom Quiz',
+      title: 'OraOra',
       theme: ThemeData(
         //primarySwatch: Color.fromRGBO(44, 62, 80,1.0),
         visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -29,12 +29,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  void _nextAtom() {
-    setState(() {
-      //
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -43,19 +37,15 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            RaisedButton(
-              padding: EdgeInsets.symmetric(vertical:10),
-              onPressed: _nextAtom,
-              child: Text("Let's See"),
-            )
+            Text(
+              'Here Are Images!',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
+            ),
+            SizedBox(height: 50,),
+            Image.asset('assets/images/wyd.gif'),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _nextAtom,
-        tooltip: 'Increment',
-        child: Icon(Icons.arrow_right),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
